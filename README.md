@@ -62,7 +62,13 @@ https://localhost:44345/
             return View(pago);
         }  
   ```
+* Para los demás campos verificar el manual descargado en los [Requisitos Previos](#Requisitos_Previos).
 
+  - En el capítulo `5. ENVIAR UN FORMULARIO DE PAGO EN POST` se describe todos los datos que podemos enviar en nuestro formulario de pago, `en la pagina 21` se muestra un ejemplo de como se debería estructurar el html y como se pueden enviar dentro de nuestro formulario de pago.
+
+    ![pagar](Image/imagenes-readme/formulario.png)
+
+  - Para los campos que tienen un valor ya establecido en `value` se recomienda que los cambie solo cuando verifique el manual y los datos del parámetro que está modificando, se recomienda dejar los valores predefinidos para este ejemplo.
 
 ## 5. Transacción de prueba
 Antes de poner en marcha su pasarela de pago en un entorno de producción, es esencial realizar pruebas para garantizar su correcto funcionamiento. 
